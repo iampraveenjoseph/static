@@ -9,7 +9,7 @@ function connect() {
         acceptAllDevices : true
     })
     .then(device => {
-        console.log('Got device');
+        console.log('Got device',device);
     })
      .catch(error => {
         console.log(error);
